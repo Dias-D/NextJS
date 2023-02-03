@@ -2,15 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --header-blue: #007dff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.customRounded {
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  border-bottom-left-radius: 0.50rem;
+ .customRounded {
+    border-color: var(--header-blue);
+    color: var(--header-blue);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 0.50rem;
+}
+
+.customBlueSpanHeader {
+  color: var(--header-blue)
 }
