@@ -13,7 +13,7 @@ function Header() {
                     </button>
                     <span className="mt-3 text-5xl-sm font-normal leading-none">Menos Conversinha,</span>
                     <span className="text-7xl-sm font-bold leading-none customBlueSpanHeader">Mais Conversão</span>
-                    <hr class="w-5/12 h-1 mx-auto bg-gray-200 border-0 rounded md:my-6 dark:bg-gray-700" />
+                    <hr className="w-5/12 h-1 mx-auto bg-gray-200 border-0 rounded md:my-6 dark:bg-gray-700" />
                     <span className="text-llg leading-none">Conheça as estratégias que <strong>mudaram o jogo</strong> e como aplicá-las no seu negócio</span>
                 </div>
             </div>
