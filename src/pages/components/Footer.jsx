@@ -34,13 +34,13 @@ function Footer() {
                         <h1 className="font-medium text-xl">Siga a Leadster</h1>
                         <div className="flex flex-row py-6">
                             <div className="customFooterImage">
-                                <Image src="/../public/images/linkedin-icon.png" alt="linkedin-logo" width="14" height="14" />
+                                <Image className="opacity-50" src="/../public/images/linkedin-icon.png" alt="linkedin-logo" width="14" height="14" />
                             </div>
                             <div className="customFooterImage">
-                                <Image src="/../public/images/facebook-icon.png" alt="facebook-logo" width="14" height="14" />
+                                <Image className="opacity-50" src="/../public/images/facebook-icon.png" alt="facebook-logo" width="14" height="14" />
                             </div>
                             <div className="customFooterImage">
-                                <Image src="/../public/images/instagram-icon.png" alt="instagram-logo" width="16" height="16" />
+                                <Image className="opacity-50" src="/../public/images/instagram-icon.png" alt="instagram-logo" width="16" height="16" />
                             </div>
                         </div>
                         <div className="py-1">
