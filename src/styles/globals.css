@@ -4,6 +4,7 @@
 
 :root {
   --header-blue: #007dff;
+  --footer-blue: #00aff0;
 }
 
 * {
@@ -23,4 +24,24 @@
 
 .customBlueSpanHeader {
   color: var(--header-blue)
+}
+
+.customFooterToFourColumn {
+  @apply flex flex-col px-10;
+}
+
+.customFooterTitle {
+  @apply mb-6 font-medium text-xl;
+}
+
+.customFooterSpan {
+  @apply py-2 text-neutral-400;
+}
+
+.customFooterImage {
+  @apply flex justify-center items-center bg-gray-100 w-10 h-10 mx-2 rounded-full;
+}
+
+.customFooterBlue {
+  color: var(--footer-blue);
 }
