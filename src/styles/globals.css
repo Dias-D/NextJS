@@ -4,6 +4,7 @@
 
 :root {
   --header-blue: #007dff;
+  --footer-blue: #00aff0;
 }
 
 * {
@@ -39,4 +40,8 @@
 
 .customFooterImage {
   @apply flex justify-center items-center bg-gray-100 w-10 h-10 mx-2 rounded-full;
+}
+
+.customFooterBlue {
+  color: var(--footer-blue);
 }

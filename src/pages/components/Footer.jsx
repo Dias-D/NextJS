@@ -58,7 +58,7 @@ function Footer() {
                     <div className="flex flex-row w-6/12 px-10">
                         <span className="text-sm text-neutral-400">
                             Copyright &copy; 2015 - 2022 Todos os direitos reservados |</span>
-                        <span className="text-sm text-neutral-400">&nbsp; Leadster</span>
+                        <span className="customFooterBlue text-sm text-neutral-400">&nbsp; Leadster</span>
                     </div>
                     <div className="flex justify-end w-6/12">
                         <span className="text-sm text-neutral-400">
