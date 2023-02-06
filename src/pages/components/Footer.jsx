@@ -55,12 +55,12 @@ function Footer() {
             <hr className="w-full h-1 bg-gray-100 border-0 rounded mt-20 dark:bg-gray-700" /> 
             <div className="max-w-6xl m-auto">
                 <div className="flex flex-row py-8">
-                    <div className="flex flex-row w-6/12 px-10">
+                    <div className="flex flex-row w-6/12 px-14">
                         <span className="text-sm text-neutral-400">
                             Copyright &copy; 2015 - 2022 Todos os direitos reservados |</span>
                         <span className="customFooterBlue text-sm text-neutral-400">&nbsp; Leadster</span>
                     </div>
-                    <div className="flex justify-end w-6/12">
+                    <div className="flex justify-end w-6/12 px-10">
                         <span className="text-sm text-neutral-400">
                             Rua José Loureiro, 464 - Centro - Curituba PR CEP: 80010-000 | Termos de uso
                         </span>
