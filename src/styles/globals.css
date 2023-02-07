@@ -26,6 +26,24 @@
   color: var(--header-blue)
 }
 
+.customInformativeButton {
+  @apply bg-transparent text-sm text-white font-semibold py-1 px-4 border border-2 rounded-full;
+  height: 4.5rem;
+  background-color: var(--header-blue);
+}
+
+.customInformativeImage {
+  @apply flex justify-end w-6/12 relative;
+  height: 38rem;
+  width: 44rem;
+}
+
+.customInformativeSeloImage {
+  @apply ml-4 relative;
+  height: 4.5rem;
+  width: 12rem;
+}
+
 .customFooterToFourColumn {
   @apply flex flex-col px-10;
 }
