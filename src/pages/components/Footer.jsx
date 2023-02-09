@@ -1,11 +1,15 @@
 import Image from "next/image";
+import FacebookIcon from "public/images/facebook-icon.png";
+import InstagramIcon from "public/images/instagram-icon.png";
+import LinkedinIcon from "public/images/linkedin-icon.png";
+import Logo from "public/images/logo.png";
 
 function Footer() {
     return (
         <>
             <div className="max-w-6xl m-auto">
                 <div className="flex flex-col items-center justify-center py-12">
-                    <Image src="/../public/images/logo.png" alt="logo" width="256" height="256" />
+                    <Image src={ Logo } alt="logo" width="256" height="256" />
                     <span className="text-neutral-400">Transformando visitantes em clientes.</span>
                 </div>
                 <div className="flex flex-row justify-center">
@@ -34,13 +38,13 @@ function Footer() {
                         <h1 className="font-medium text-xl">Siga a Leadster</h1>
                         <div className="flex flex-row py-6">
                             <div className="customFooterImage">
-                                <Image className="opacity-50" src="/../public/images/linkedin-icon.png" alt="linkedin-logo" width="14" height="14" />
+                                <Image className="opacity-50" src={ LinkedinIcon } alt="linkedin-logo" width="14" height="14" />
                             </div>
                             <div className="customFooterImage">
-                                <Image className="opacity-50" src="/../public/images/facebook-icon.png" alt="facebook-logo" width="14" height="14" />
+                                <Image className="opacity-50" src={ FacebookIcon } alt="facebook-logo" width="14" height="14" />
                             </div>
                             <div className="customFooterImage">
-                                <Image className="opacity-50" src="/../public/images/instagram-icon.png" alt="instagram-logo" width="16" height="16" />
+                                <Image className="opacity-50" src={ InstagramIcon } alt="instagram-logo" width="16" height="16" />
                             </div>
                         </div>
                         <div className="py-1">

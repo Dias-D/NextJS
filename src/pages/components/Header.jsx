@@ -1,10 +1,12 @@
 import Image from "next/image";
+import Asset from "public/images/asset-header.png";
+import Logo from "public/images/logo.png";
 
 function Header() {
     return (
         <>
             <div className="flex justify-center my-8">
-                <Image src="/../public/images/logo.png" alt="logo" width="180" height="180" />
+                <Image src={ Logo } alt="logo" width="180" height="180" />
             </div>
             <div className="bg-sky-50 w-full">
                 <div className="flex flex-col justify-center items-center py-40">
@@ -14,7 +16,7 @@ function Header() {
                     <span className="mt-3 text-5xl-sm font-normal leading-none">Menos Conversinha,</span>
                     <div className="flex justify-end">
                         <div className="customHeaderAssetImage">
-                            <Image src="/../public/images/asset-header.png" alt="Asset Header" fill objectFit="cover" />
+                            <Image src={ Asset } alt="Asset Header" fill  />
                         </div>
                         <span className="text-7xl-sm font-bold leading-none text-header-blue">Mais Conversão</span>
                     </div>

@@ -1,5 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
+import Download from "public/images/download.jpg"
+import Thumbnail from "public/images/thumbnail.png"
+import Youtube from "public/images/youtube.png"
 
 function LibraryList({ list }) {
     const [showModal, setShowModal] = useState(false);
@@ -12,7 +15,7 @@ function LibraryList({ list }) {
                         <>
                             <div className="customLibraryListCard" onClick={() => setShowModal(true)}>
                                 <div className="flex w-full h-48 relative">
-                                    <Image src="/../public/images/thumbnail.png" alt="thumbnail" layout="fill" objectFit="cover" />
+                                    <Image src={ Thumbnail } alt="thumbnail" fill object-fit="cover" />
                                 </div>
                                 <div className="flex items-center h-20">
                                     <span className="px-10 text-lg font-semibold leading-none">{ l.title }</span>
@@ -39,7 +42,7 @@ function LibraryList({ list }) {
                                     <span className="font-semibold text-2xl text-gray-700 leading-none tracking-tighter">Como aumentar sua Geração de Leads feat. Traktor</span>
                                 </div>
                                 <div className="flex w-full h-96 mt-8 relative">
-                                    <Image src="/../public/images/youtube.png" alt="youtube" layout="fill" objectFit="cover" />
+                                    <Image src={ Youtube } alt="youtube" fill object-fit="cover" />
                                 </div>
                                 <div className="flex flex-col py-5 px-4">
                                     <span className="font-semibold">Descrição</span>
@@ -51,7 +54,7 @@ function LibraryList({ list }) {
                                         <div class="inline-flex rounded-md" role="group">
                                             <button class="p-2 bg-green-400/75 rounded-l-lg">
                                                 <div className="flex w-3 h-3 relative">
-                                                    <Image src="/../public/images/download.jpg" alt="download" layout="fill" objectFit="cover" />
+                                                    <Image src={ Download } alt="download" fill  />
                                                 </div>
                                             </button>
                                             <button class="px-2 py-1 text-sm font-medium text-green-700 bg-green-400/40 rounded-r-lg">
@@ -61,7 +64,7 @@ function LibraryList({ list }) {
                                         <div class="inline-flex rounded-md px-2" role="group">
                                             <button class="p-2 rounded-l-lg bg-blue-400/75">
                                                 <div className="flex w-3 h-3 relative">
-                                                    <Image src="/../public/images/download.jpg" alt="download" layout="fill" objectFit="cover" />
+                                                    <Image src={ Download } alt="download" fill  />
                                                 </div>
                                             </button>
                                             <button class="px-2 py-1 text-sm font-medium text-blue-700 bg-blue-400/40 rounded-r-lg">
@@ -71,7 +74,7 @@ function LibraryList({ list }) {
                                         <div class="inline-flex rounded-md" role="group">
                                             <button class="p-2 bg-yellow-400/75 rounded-l-lg ">
                                                 <div className="flex w-3 h-3 relative">
-                                                    <Image src="/../public/images/download.jpg" alt="download" layout="fill" objectFit="cover" />
+                                                    <Image src={ Download } alt="download" fill  />
                                                 </div>
                                             </button>
                                             <button class="px-2 py-1 text-sm text-yellow-700 bg-yellow-400/40 rounded-r-lg">
