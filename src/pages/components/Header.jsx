@@ -12,7 +12,12 @@ function Header() {
                         <span className="font-bold">WEBINARS </span> EXCLUSIVOS
                     </button>
                     <span className="mt-3 text-5xl-sm font-normal leading-none">Menos Conversinha,</span>
-                    <span className="text-7xl-sm font-bold leading-none customBlueSpanHeader">Mais Conversão</span>
+                    <div className="flex justify-end">
+                        <div className="customHeaderAssetImage">
+                            <Image src="/../public/images/asset-header.png" alt="Asset Header" fill objectFit="cover" />
+                        </div>
+                        <span className="text-7xl-sm font-bold leading-none text-header-blue">Mais Conversão</span>
+                    </div>
                     <hr className="w-5/12 h-1 mx-auto bg-gray-200 border-0 rounded md:my-6 dark:bg-gray-700" />
                     <span className="text-llg leading-none">Conheça as estratégias que <strong>mudaram o jogo</strong> e como aplicá-las no seu negócio</span>
                 </div>
