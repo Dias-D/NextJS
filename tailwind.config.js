@@ -29,7 +29,10 @@ module.exports = {
       colors: {
         'header-blue': '#007dff',
         'footer-blue': '#00aff0',
-      }
+      },
+      maxWidth: {
+        'mi': '16rem',
+      },
     },
   },
   plugins: [],

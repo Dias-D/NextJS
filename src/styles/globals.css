@@ -28,7 +28,7 @@
   @apply select-none cursor-pointer rounded-full border border-black py-2 px-6 
     transition-colors duration-200 ease-in-out 
     hover:border-header-blue hover:text-header-blue
-    peer-checked:bg-header-blue peer-checked:text-white peer-checked:border-header-blue; 
+    peer-checked:bg-header-blue peer-checked:text-white peer-checked:border-header-blue;
 }
 
 .customLibratyPaginateButton {
