@@ -25,7 +25,12 @@ module.exports = {
       '7xl': '5rem',
       '7xl-sm': '5.60rem',
     },
-    extend: {},
+    extend: {
+      colors: {
+        'header-blue': '#007dff',
+        'footer-blue': '#00aff0',
+      }
+    },
   },
   plugins: [],
 };

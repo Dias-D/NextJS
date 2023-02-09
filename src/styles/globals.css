@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --header-blue: #007dff;
-  --footer-blue: #00aff0;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +9,7 @@
 }
 
  .customRounded {
-    border-color: var(--header-blue);
-    color: var(--header-blue);
+    @apply border-header-blue text-header-blue;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -23,13 +17,27 @@
 }
 
 .customBlueSpanHeader {
-  color: var(--header-blue)
+  @apply text-header-blue;
+}
+
+.customLibraryCheckboxLabel {
+  @apply select-none cursor-pointer rounded-full border border-black py-2 px-6 
+    transition-colors duration-200 ease-in-out 
+    hover:border-header-blue hover:text-header-blue
+    peer-checked:bg-header-blue peer-checked:text-white peer-checked:border-header-blue; 
+}
+
+.customLibratyPaginateButton {
+  @apply px-4 py-1 text-2xl font-medium hover:border-header-blue hover:text-header-blue;
+}
+
+.customLibraryListCard {
+  @apply my-2 rounded-lg mx-3 shadow-xl hover:text-header-blue;
 }
 
 .customInformativeButton {
-  @apply bg-transparent text-sm text-white font-semibold py-1 px-4 border border-2 rounded-full;
+  @apply bg-transparent text-sm text-white font-semibold py-1 px-4 border border-2 bg-header-blue rounded-full;
   height: 4.5rem;
-  background-color: var(--header-blue);
 }
 
 .customInformativeImage {
@@ -61,5 +69,5 @@
 }
 
 .customFooterBlue {
-  color: var(--footer-blue);
+  @apply text-footer-blue;
 }
