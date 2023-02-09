@@ -20,6 +20,10 @@
   @apply text-header-blue;
 }
 
+.customHeaderAssetImage {
+  @apply -mr-6 h-10 w-16 absolute;
+}
+
 .customLibraryCheckboxLabel {
   @apply select-none cursor-pointer rounded-full border border-black py-2 px-6 
     transition-colors duration-200 ease-in-out 
