@@ -9,21 +9,21 @@ const library = [
   {
     "id": 2,
     "type": "agency",
-    "title": "Como aumentar sua geração de Leads feat. Traktor",
+    "title": "Como aumentar as Leads feat. Traktor",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque dui ut tellus vestibulum, id commodo tellus fringilla.",
     "export": ["spreadsheet", "document", "presentation", "folder"]
   },
   {
     "id": 3,
     "type": "agency",
-    "title": "Como aumentar sua geração de Leads feat. Traktor",
+    "title": "Como aumentar sua geração de Leads",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque dui ut tellus vestibulum, id commodo tellus fringilla.",
     "export": ["spreadsheet", "document", "presentation", "folder"]
   },
   {
     "id": 4,
     "type": "agency",
-    "title": "Como aumentar sua geração de Leads feat. Traktor",
+    "title": "Como aumentar suas Leads feat.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque dui ut tellus vestibulum, id commodo tellus fringilla.",
     "export": ["spreadsheet", "document", "presentation", "folder"]
   },
@@ -44,14 +44,14 @@ const library = [
   {
     "id": 7,
     "type": "agency",
-    "title": "Como aumentar sua geração de Leads feat. Traktor",
+    "title": "Como aumentar as Leads feat. Traktor",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque dui ut tellus vestibulum, id commodo tellus fringilla.",
     "export": ["spreadsheet", "document", "presentation", "folder"]
   },
   {
     "id": 8,
     "type": "agency",
-    "title": "Como aumentar sua geração de Leads feat. Traktor",
+    "title": "Como aumentar sua geração de Leads",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque dui ut tellus vestibulum, id commodo tellus fringilla.",
     "export": ["spreadsheet", "document", "presentation", "folder"]
   },
